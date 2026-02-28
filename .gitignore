@@ -1,0 +1,41 @@
+# ========== Node / 前端 ==========
+node_modules/
+dist/
+.npm
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ========== Java / Maven / 后端 ==========
+backend/target/
+backend/*.jar
+backend/*.war
+backend/*.class
+*.iml
+
+# ========== IDE ==========
+.idea/
+**/.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ========== 系统文件 ==========
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========== 环境与配置 ==========
+.env
+.env.local
+.env.*.local
+*.local
+
+# ========== 日志与临时 ==========
+logs/
+*.log
+tmp/
+temp/

@@ -101,4 +101,3 @@ npm run dev
 - 前端生产构建：`npm run build`，产物在 `dist/`
 - 后端打包：`cd backend && mvn package`，运行：`java -jar target/exam-system-backend-1.0.0.jar`
 - 生产环境请修改 JWT 密钥（`application.yml` 中 `jwt.secret`）与数据库密码
-# exam_system
